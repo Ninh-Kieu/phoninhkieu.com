@@ -1,0 +1,126 @@
+a:link {
+  color: #ffffff;
+}
+a:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
+a:visited {
+  color: #ffffff;
+}
+*
+{
+border: 0;
+margin: 0;
+}
+
+body {
+  background: #5e5352 none repeat scroll 0% 50%;
+  margin-top: 10px;
+  font-family: Tahoma,Arial,Helvetica,sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: normal;
+  font-size-adjust: none;
+  font-stretch: normal;
+  color: #666666;
+}
+#main {
+  border: 1px solid #ffffff;
+  margin: 0 auto;
+  background: #ffffff none repeat scroll 0% 50%;
+  width: 1001px;
+}
+#header {
+  border-top: 1px solid #ffffff;
+  border-left: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+  margin: 0 auto;
+  background: transparent url(images/Header.jpg) no-repeat scroll left bottom;
+  width: 1000px;
+  height: 200px;
+}
+#buttons {
+  margin-left: 0px;
+  width: 269px;
+}
+#buttons ul {
+  margin: 0px;
+  padding: 0px;
+}
+#buttons li {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  list-style-image: none;
+  list-style-position: outside;
+}
+#buttons a {
+  background: transparent url(images/menu.gif) no-repeat scroll 0% 50%;
+  font-family: Arial,Helvetica,sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  display: block;
+  float: left;
+  width: 294px;
+  height: 34px;
+  text-align: center;
+  text-decoration: none;
+  font-style: oblique;
+  color: #ffffff;
+  padding-top: 20px;
+}
+#buttons a:hover {
+  background: transparent url(images/menu_hover.gif) no-repeat scroll 0% 50%;
+}
+.end {
+  border-bottom: 1px solid #0444ab;
+}
+#content {
+  padding: 13px;
+  background: #670400 url(images/con_bg.jpg) repeat-x scroll center top;
+}
+#left {
+  color: #ffffff;
+  width: 659px;
+}
+.text {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#left *h1 {
+  border-bottom: 1px solid #690400;
+  margin: 0 5px 5px 0;
+  padding: 10px 0 0 10px;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #bbb6bc;
+}
+.read {
+  text-align: right;
+  font-size: 12px;
+  font-family: Arial,Helvetica,sans-serif;
+  padding-bottom: 5px;
+}
+.read *a {
+  color: #ff0000;
+}
+.read *a:hover {
+  color: #ff0000;
+  text-decoration: none;
+}
+#right {
+  float: right;
+  width: 300px;
+  /*min-height: 405px;*/
+  padding: 10px 0 0 10px;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #bbb6bc;
+}
+
+
